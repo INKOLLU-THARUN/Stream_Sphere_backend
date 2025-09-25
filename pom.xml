@@ -58,6 +58,7 @@
         </dependency>
     </dependencies>
     <build>
+        <finalName>Streamspherebackend</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
