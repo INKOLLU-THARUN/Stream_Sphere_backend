@@ -1,0 +1,69 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Spring Boot App",
+			"type": "shell",
+			"command": "java",
+			"args": [
+				"-Dspring.profiles.active=dev",
+				"-cp",
+				"target/classes",
+				"com.klu.KluApplication"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Spring Boot Run",
+			"type": "shell",
+			"command": "mvnw.cmd",
+			"args": [
+				"spring-boot:run"
+			],
+			"isBackground": true,
+			"group": "build"
+		},
+		{
+			"label": "Start StreamSphere Backend",
+			"type": "shell",
+			"command": "java",
+			"args": [
+				"-Dspring.profiles.active=dev",
+				"-jar",
+				"target/backend-0.0.1-SNAPSHOT.jar"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "run-spring-boot-backend",
+			"type": "shell",
+			"command": "D:/apache-maven-3.9.9/bin/mvn.cmd",
+			"args": [
+				"spring-boot:run"
+			],
+			"isBackground": true,
+			"group": "build"
+		},
+		{
+			"label": "run-spring-boot-backend",
+			"type": "shell",
+			"command": "D:\\apache-maven-3.9.9\\bin\\mvn.cmd spring-boot:run",
+			"isBackground": true,
+			"group": "build"
+		},
+		{
+			"label": "build-java21",
+			"type": "shell",
+			"command": "mvnw.cmd",
+			"args": [
+				"clean",
+				"compile"
+			],
+			"group": "build"
+		}
+	]
+}

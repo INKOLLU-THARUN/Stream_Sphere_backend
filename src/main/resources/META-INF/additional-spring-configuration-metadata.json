@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "media.movies.path",
+    "type": "java.lang.String",
+    "description": "A description for 'media.movies.path'"
+  },
+  {
+    "name": "media.thumbnails.path",
+    "type": "java.lang.String",
+    "description": "A description for 'media.thumbnails.path'"
+  },
+  {
+    "name": "media.shows.path",
+    "type": "java.lang.String",
+    "description": "A description for 'media.shows.path'"
+  },
+  {
+    "name": "hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.dialect'"
+  }
+]}
